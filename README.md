@@ -10,6 +10,8 @@ The data files are CSV (mostly following [RFC 4180](https://tools.ietf.org/html/
 
 Timestamps use an "almost ISO 8601" format for convenience. To get an ISO 8601 timestamp, replace the space with a "T" and optionally add a "Z" at the end to indicate that it is UTC.
 
+Some conventions have only announced dates and not actual times. In these cases, only the date is present to reflect the inherent ambiguity. Importantly, a date alone does not mean "sometime between 00:00 and 23:59 UTC."
+
 ## License
 
 All information in this dataset is dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). (A copy is available in `LICENSE.txt`.) By contributing additional information you agree to the same dedication for your contributions.
