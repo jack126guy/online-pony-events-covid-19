@@ -10,7 +10,7 @@ The data files are CSV (mostly following [RFC 4180](https://tools.ietf.org/html/
 
 Timestamps use an "almost ISO 8601" format for convenience. To get an ISO 8601 timestamp, replace the space with a "T" and optionally add a "Z" at the end to indicate that it is UTC.
 
-Some conventions have only announced dates and not actual times. In these cases, only the date is present to reflect the inherent ambiguity. Importantly, a date alone does not mean "sometime between 00:00 and 23:59 UTC."
+Some events have only announced dates and not actual times. In these cases, only the date is present to reflect the inherent ambiguity. Importantly, a date alone does not mean "sometime between 00:00 and 23:59 UTC."
 
 ## License
 
