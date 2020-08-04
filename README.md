@@ -6,6 +6,11 @@ The dataset is also available as a [Google Sheets spreadsheet](https://docs.goog
 
 ## Format
 
+The dataset consists of two data files:
+
+* `Events.csv`: The list of events
+* `Special Mentions.csv`: Related resources that may be of interest
+
 The data files are CSV (mostly following [RFC 4180](https://tools.ietf.org/html/rfc4180), except non-ASCII characters may be introduced as UTF-8) with headers.
 
 Timestamps use an "almost ISO 8601" format for convenience. To get an ISO 8601 timestamp, replace the space with a "T" and optionally add a "Z" at the end to indicate that it is UTC.
