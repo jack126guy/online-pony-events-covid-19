@@ -13,9 +13,13 @@ The dataset consists of two data files:
 
 The data files are CSV (mostly following [RFC 4180](https://tools.ietf.org/html/rfc4180), except non-ASCII characters may be introduced as UTF-8) with headers.
 
-Timestamps use an "almost ISO 8601" format for convenience. To get an ISO 8601 timestamp, replace the space with a "T" and optionally add a "Z" at the end to indicate that it is UTC.
+## Dates and Times
 
-Some events have only announced dates and not actual times. In these cases, only the date is present to reflect the inherent ambiguity. Importantly, a date alone does not mean "sometime between 00:00 and 23:59 UTC."
+The events list contains times in UTC and "as stated." "As stated" times are the times announced in publications and social media, which are often not in UTC.
+
+UTC timestamps use an "almost ISO 8601" format for convenience. In this format, the "T" that separates the date and time is replaced with a space, and the "Z" is only implied. "As stated" timestamps strictly follow ISO 8601 format and include the UTC offset.
+
+For events that have only announced dates and not actual times, both the UTC and "as stated" timestamps include only the date (with no offset). Importantly, a date alone does necessarily mean that the time is between 00:00 and 23:59 UTC on that date.
 
 ## License
 
