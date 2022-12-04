@@ -1,8 +1,12 @@
 # Online Pony Events During the COVID-19 Pandemic
 
-This dataset documents the various online events in the brony/*My Little Pony: Friendship is Magic* fandom that have sprung up in response to the COVID-19 pandemic, in the same vein as the existing spreadsheet for physical conventions.
+This dataset documents the various online events in the brony/*My Little Pony: Friendship is Magic* fandom that have taken place from 2020 to 2022, mainly in response to the COVID-19 pandemic.
 
 The dataset is also available as a [Google Sheets spreadsheet](https://docs.google.com/spreadsheets/d/1FQ3Jcje9d7Uq3ZsbXYXfWsozFFxMxqDPxie7MajOZRs/edit).
+
+## Scope
+
+This dataset covers all events that have taken place primarily online in the brony fandom from 2020 to 2022 (formally, having an official start time between 31 December 2019 at 12:00 UTC and 1 January 2023 at 12:00 UTC).
 
 ## Format
 
